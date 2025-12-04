@@ -1,0 +1,37 @@
+
+/*BODY STUFF*/
+body {
+    margin-left: 25px ;
+
+}
+p{
+    margin-right: 250px ;
+}
+
+
+/* HEADER STUFF */
+.page-header {
+    display: flex;                
+    justify-content: space-between; 
+    padding: 20px 5%;             
+    
+    
+}
+
+.logo { /*BIG LANDON OLESKY TEXT*/
+    
+    
+}
+
+.page-header ul {
+    display: flex;                
+    list-style: none;             
+    padding: 0;
+    margin: 0;
+}
+
+.page-header li {
+    margin-left: 30px;            
+    cursor: pointer;
+    text-align: center;           
+}
