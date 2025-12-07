@@ -118,9 +118,19 @@ h2{
     font-family: "Koh Santepheap", serif;
     font-weight: 300;
 }
+.page-header li  strong{
+    font-weight: 600;
+}
+
 
 a {
     text-decoration: none;
+    text-: underline;
+    color: #502419;
+    
+}
+a:hover {
+    text-decoration: underline;
     color: #502419;
     
 }
@@ -168,9 +178,11 @@ img {
     display: flex;
     gap: 15px;
     margin-bottom: 20px;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
+    
 }
+
 
 .project-image {
     width: calc(50% - 8px);
@@ -185,6 +197,14 @@ img {
     border-radius: 8px;
     object-fit: cover;
 }
+.Contact-image {
+    display: flex;
+    float: right;
+    margin: 0;
+    width: 10%;
+    height: auto;
+    
+}
 
 .unity-logo {
     
@@ -198,6 +218,17 @@ img {
     line-height: 1.6;
     margin: 0;
     margin-right: 0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    line-height: 2.6;
+    margin: 0;
+    margin-right: 0;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 
